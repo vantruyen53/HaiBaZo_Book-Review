@@ -5,7 +5,7 @@ import type {BaseBookDTO } from '../DTO/BookDTO';
 import type {BaseReviewDT } from '../DTO/ReviewDTO';
 
 const API = axios.create({
-  baseURL: import.meta.env.REACT_APP_API_URL || 'http://localhost:8080/api',
+  baseURL: import.meta.env.VITE_API_URL || 'http://localhost:8080/api',
 });
 
 export const authorApi = {
