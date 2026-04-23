@@ -1,6 +1,6 @@
 export interface BookDTO extends BaseBookDTO{
     id: number,
-    authorId: number,
+    authorName: string,
 }
 
 export interface BaseBookDTO{
